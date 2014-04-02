@@ -37,6 +37,8 @@ TARGET_KERNEL_SOURCE         := kernel/samsung/msm8930-common
 TARGET_KERNEL_CONFIG         := cyanogen_lt02ltexx_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 
+TARGET_CPU_VARIANT := krait
+
 TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 
 # Recovery
